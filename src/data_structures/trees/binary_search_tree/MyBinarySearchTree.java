@@ -177,11 +177,11 @@ public class MyBinarySearchTree {
     System.out.println();
     count++;
     if(node.getLeft() != null) {
-      System.out.print("\t".repeat(Math.max(0, count)) + "Left: ");
+//      System.out.print("\t".repeat(Math.max(0, count)) + "Left: ");
       printTree(node.getLeft());
     }
     if(node.getRight() != null) {
-      System.out.print("\t".repeat(Math.max(0, count)) +"Right: ");
+//      System.out.print("\t".repeat(Math.max(0, count)) +"Right: ");
       printTree(node.getRight());
     }
     count--;
